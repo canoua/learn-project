@@ -1,4 +1,5 @@
 <template>
+  <h2>Основы</h2>
   <img v-bind:src="attr"> 
   <button v-on:click="show">{{ btnText }}</button>
   <button @click="showCape">showCape</button>

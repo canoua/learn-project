@@ -7,6 +7,10 @@
   <Components/>
 </template>
 
+<style>
+  @import url('./assets/base.css');
+</style>
+
 <script>
   import Base from './components/Base.vue';
   import Conditions from './components/Conditions.vue';

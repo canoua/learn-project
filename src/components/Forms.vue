@@ -1,5 +1,5 @@
 <template>
-  Forms
+  <h2>Формы</h2>
 </template>
 
 <script>

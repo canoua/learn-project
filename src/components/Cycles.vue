@@ -1,5 +1,5 @@
 <template>
-  cycles
+  <h2>Циклы</h2>
 </template>
 
 <script>

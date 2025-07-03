@@ -1,5 +1,5 @@
 <template>
-  Components
+  <h2>Компоненты</h2>
 </template>
 
 <script>
