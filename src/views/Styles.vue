@@ -1,5 +1,5 @@
 <template>
-  <h2>Styles</h2>
+  <h2>Стили</h2>
   <Styles/>
 </template>
 

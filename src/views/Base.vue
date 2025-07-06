@@ -1,14 +1,11 @@
 <template>
-  <p>Base</p>
+  <p>Основы</p>
   <Base/>
 </template>
 
 <script>
   import Base from '@/components/Base.vue';
   export default {
-    data() {
-      return
-    },
     components: {
       Base
     }

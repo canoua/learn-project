@@ -1,5 +1,5 @@
 <template>
-  <p>Conditions</p>
+  <p>Условия</p>
   <Conditions/>
 </template>
 

@@ -4,12 +4,16 @@
   import Styles from './views/Styles.vue';
   import Conditions from './views/Conditions.vue';
   import Cycles from './views/Cycles.vue';
+  import Forms from './views/Forms.vue';
+  import Components from './views/Components.vue';
 
   const routes = {
     '/': Home,
     '/cycles': Cycles,
     '/styles': Styles,
-    '/conditions': Conditions
+    '/conditions': Conditions,
+    '/forms': Forms,
+    '/components': Components
   }
 
   const currentPath = ref(window.location.hash)
@@ -25,10 +29,15 @@
 </script>
 
 <template>
-  <a href="#/">Base</a> |
-  <a href="#/cycles">Cycles</a> |
-  <a href="#/styles">Styles</a>|
-  <a href="#/conditions">Conditions</a>
-  <component :is="currentView" />
+  <div style="text-align: center;">
+    <a href="#/">Основы</a> |
+    <a href="#/cycles">Циклы</a> |
+    <a href="#/styles">Стили</a>|
+    <a href="#/conditions">Условия</a> |
+    <a href="#/forms">Формы</a> |
+    <a href="#/components">Компоненты</a>
+    <component :is="currentView" />
+  </div>
+  
 </template>
 

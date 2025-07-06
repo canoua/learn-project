@@ -1,5 +1,5 @@
 <template>
-  <p>Cycles</p>
+  <p>Циклы</p>
   <Cycles/>
 </template>
 
