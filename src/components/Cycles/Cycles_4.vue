@@ -27,7 +27,6 @@
       deleteLastArr() {
         this.arr.pop()
       }
-      
     }
   }
 </script>
